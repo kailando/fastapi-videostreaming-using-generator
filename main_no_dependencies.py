@@ -1,7 +1,7 @@
 import os
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-VIDEO_PATH = "D:/Computer/Videos/OldVideos/how to make a role.mp4"
+VIDEO_PATH = "C:/Users/your-profile/Videos/video.mp4"
 
 class VideoHTTPRequestHandler(BaseHTTPRequestHandler):
     def do_GET(self):
